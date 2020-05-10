@@ -5,12 +5,7 @@
 4.
   while i < array.length
    
-    result[i] = nmbers[i] ** 2
+    array[i] = array[i] ** 2
 
-    # and don't forget to increase the index,
-    # otherwise the loop will run forever.
     i += 1
   end
-
-  # Return the result array
-  result
