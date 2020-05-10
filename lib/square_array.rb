@@ -2,7 +2,7 @@
 1.	i = 0
 2.	array = [1,2,3,4,5]
 3.	 
-4.def 
+4.def square_array(array)
 
   while i < array.length
    
@@ -10,3 +10,5 @@
 
     i += 1
   end
+ return array[i]
+end 
