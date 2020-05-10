@@ -12,3 +12,5 @@
   end
  return array[i]
 end 
+
+square_array(array)
