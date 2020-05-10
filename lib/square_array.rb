@@ -1,3 +1,4 @@
 array.each do |item|
-  item * item
+  x = item * item
+  return x
 end
